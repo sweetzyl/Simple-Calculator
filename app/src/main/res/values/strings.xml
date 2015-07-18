@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_hint">First Input</string>
+    <string name="second_hint">Second Input</string>
+    <string name="operand_divide">/</string>
+    <string name="opernad_multiply">x</string>
+    <string name="operand_subtract">-</string>
+    <string name="operand_add">+</string>
+    <string name="clear">C</string>
+    <string name="exit">Exit</string>
+    <string name="result">Result</string>
+</resources>

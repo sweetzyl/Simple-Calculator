@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/FirstNumber"
+        android:layout_margin="@dimen/result_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/first_hint"
+        android:textSize="@dimen/result_text_size" />
+
+    <TextView
+        android:id="@+id/Operator"
+        android:layout_margin="@dimen/result_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Operator"
+        android:textSize="@dimen/result_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondnumber"
+        android:text="@string/second_hint"
+        android:layout_gravity="right"
+        android:textSize="@dimen/result_text_size"
+        android:layout_margin="@dimen/result_margin"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/primarycolor"
+        android:layout_margin="@dimen/result_margin"/>
+
+    <TextView
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="@dimen/result_text_size"
+        android:layout_margin="@dimen/result_margin"/>
+
+</LinearLayout>
